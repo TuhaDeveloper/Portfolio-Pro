@@ -1,0 +1,546 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+:root {}
+
+header {
+    background-color: rgb(33, 92, 126);
+    display: flex;
+    box-shadow: 4px 10px 15px rgb(204, 202, 202);
+}
+
+.logo {
+    font-size: 50px;
+    padding: 10px;
+    margin-left: 5px;
+}
+
+.logo span {
+    border-right: 3px solid rgb(0, 223, 0);
+    border-radius: 60%;
+    padding-right: 10px;
+    color: rgb(0, 223, 0);
+    cursor: pointer;
+
+}
+
+nav {
+    display: flex;
+    padding: 10px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: 100;
+    margin: 10px;
+
+}
+
+nav ul li a:hover {
+    color: rgb(0, 223, 0);
+}
+
+
+.home-section {
+    height: 90vh;
+    background-color: rgb(6, 116, 116);
+}
+
+
+.home-section .home-text {
+    padding-top: 4rem;
+    color: lightblue;
+}
+
+.home-text h1 {
+    margin: 3rem 0rem 0rem 12rem;
+    font-size: 100px;
+}
+
+.home-text h2 {
+    margin: 1rem 0rem 0rem 12rem;
+
+}
+
+.sclass {
+    font-size: 60px;
+    color: rgb(0, 223, 0);
+}
+
+.dod-color {
+    color: rgb(0, 223, 0);
+
+}
+
+.dnld-section {
+    background-color: rgb(131, 157, 211);
+    text-align: center;
+    display: flex;
+    padding-bottom: 2rem;
+    flex-direction: column;
+}
+
+.dnld-section .Dnld-logo {
+    margin-top: 4rem;
+    font-size: 90px;
+}
+
+.dnld-text {
+    padding: 2rem;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn {
+    background-color: rgb(0, 223, 0);
+    padding: .6rem 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+.btn:hover {
+    background-color: lightblue;
+}
+
+.dnld-btn {
+    border: 2px solid green;
+}
+
+.pro-section {
+    background-color: rgb(206, 109, 45);
+    height: 75vh;
+}
+
+.pro-section h1 {
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 40px;
+    color: black;
+}
+
+
+.progress {
+    width: 50%;
+    height: 20px;
+    background-color: #f2f2f2;
+    position: relative;
+    border-radius: 10px;
+    margin: .5rem 0;
+    /* box-shadow: 3px 8p 3px lightgray; */
+}
+
+.progress-bar {
+    border-radius: 10px;
+    width: 92%;
+    height: 100%;
+    background-color: #073309;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.progress-bar2 {
+    border-radius: 10px;
+    width: 80%;
+    height: 100%;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.progress-bar3 {
+    border-radius: 10px;
+    width: 85%;
+    height: 100%;
+    background-color: #32c7ec;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.progress-bar4 {
+    border-radius: 10px;
+    width: 95%;
+    height: 100%;
+    background-color: #37b940;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+.num-style {
+    color: rgb(197, 200, 201);
+    border-bottom: 2px solid rgb(0, 223, 0);
+    border-radius: 20%;
+}
+
+
+.progress-div {
+    margin: 4rem 0rem 0rem 15rem;
+}
+
+.progress-div p {
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+    text-align: left;
+    color: black;
+    font-size: 30px;
+}
+
+.progress-bar label {
+    text-align: left;
+}
+
+.portfolio-section {
+    background-color: rgba(194, 103, 43, 0.575);
+    height: 75vh;
+}
+
+.portfolio-f-div {
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 30px;
+    color: black;
+}
+
+.portfolio-f-div p {
+    margin: .5rem 0;
+    text-align: center;
+}
+
+.image-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    flex-direction: column;
+}
+
+.experence-section {
+    background-color: rgba(43, 194, 181, 0.575);
+    min-height: 75vh;
+}
+
+.experence-f-div {
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 30px;
+    color: black;
+}
+
+.experence-f-div .num-style {
+    color: black;
+}
+
+.experence-total-div {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2rem;
+}
+
+.left-div {
+    margin-top: 13rem;
+}
+
+.left-div div {
+    padding: 2rem;
+}
+
+.right-div div {
+    padding: 2rem;
+}
+
+.left-div h1,
+h3,
+p {
+    padding: .4rem;
+    text-align: left;
+}
+
+.right-div h1,
+h3,
+p {
+    padding: .4rem;
+    text-align: left;
+}
+
+.contact-section {
+    padding-top: 2rem;
+}
+
+.contact-header {
+    text-align: center;
+    font-size: 40px;
+    /* background-color: #bbcabc; */
+    padding: 1rem;
+}
+
+.allcontact-div {
+    height: 70vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1.5rem;
+}
+
+.contact-section button {
+    margin: .5rem 0;
+}
+
+.contact-left-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.contact-left-info h2 {
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+
+.contact-right-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-right-div input {
+    padding: 1rem .3rem;
+    margin: .4rem 0;
+    width: 40%;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+}
+
+.phone-input input {
+    width: 80%;
+}
+
+textarea {
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+footer {
+    display: flex;
+    background-color: gray;
+    align-items: center;
+}
+
+.footer-text {
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+footer a {
+    text-decoration: underline;
+}
+
+/* this is last added style */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.image-div {
+    cursor: pointer;
+}
+
+.image-div:hover {
+    border: 1px solid black;
+}
+
+.image-div img {
+    max-width: 100%;
+    height: 100%;
+}
+
+/* You can replace the link with the page you want to navigate to */
+#image-1,
+#image-2,
+#image-3 {
+    cursor: pointer;
+}
+
+#image-1:hover,
+#image-2:hover,
+#image-3:hover {
+    border: 1px solid black;
+}
+
+#image-1:hover img,
+#image-2:hover img,
+#image-3:hover img {
+    opacity: 0.9;
+}
+
+#image-1:active,
+#image-2:active,
+#image-3:active {
+    border: 2px solid red;
+}
+
+#image-1:active img,
+#image-2:active img,
+#image-3:active img {
+    opacity: 1;
+}
+
+
+
+
+
+
+/* this is last added style */
+
+
+
+
+/* 
+@keyframes progress-animation {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+} */
+
+
+
+@media screen and (max-width:676px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 1rem 0;
+    }
+
+    header .logo {
+        display: none;
+    }
+
+    .home-text h1 {
+        margin: 2rem 0rem 2rem 4rem;
+        font-size: 70px;
+    }
+
+    .home-text h2 {
+        margin: 2rem 0rem 2rem 4rem;
+    }
+
+    .dnld-section .Dnld-logo {
+        margin: 5px 0 0 0;
+        font-size: 50px;
+    }
+
+    .dnld-section {
+        height: 100%;
+        padding-bottom: 1rem;
+    }
+
+
+    .progress-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .progress-div p {
+        font-size: large;
+    }
+
+    .image-slider {
+        margin: 2rem;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .portfolio-section {
+        height: 100%;
+
+    }
+
+    .experence-total-div {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 2rem;
+    }
+
+    .left-div {
+        margin-top: 1rem;
+    }
+
+
+    .allcontact-div {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+
+    }
+
+    .contact-left-info {
+        margin-bottom: 2rem;
+    }
+
+
+}
+
+@media screen and (max-width:280px) {
+    .home-text h1 {
+        margin: 2rem 0rem 2rem 2rem;
+        font-size: 50px;
+    }
+
+    .home-text h2 {
+        margin: 2rem 0rem 2rem 2rem;
+        font-size: large;
+    }
+
+    .pro-section h1 {
+        font-size: larger;
+    }
+
+    .portfolio-section h1 {
+        font-size: large;
+    }
+
+    .experence-section h1 {
+        font-size: large;
+    }
+
+    .progress-div P {
+        font-size: medium;
+    }
+
+
+}
