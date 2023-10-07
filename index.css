@@ -6,9 +6,10 @@
     box-sizing: border-box;
 }
 
-
 header {
-    background-color: rgb(33, 92, 126);
+    /* background-color: rgb(33, 92, 126); */
+    background-image: url('./images/home.jpg');
+    background-color: rgba(0, 0, 0, 0.1);
     display: flex;
     box-shadow: 4px 10px 15px rgb(204, 202, 202);
 }
@@ -20,11 +21,14 @@ header {
 }
 
 .logo span {
-    border-right: 3px solid rgb(0, 223, 0);
+    border-right: 3px solid rgb(29, 255, 29);
     border-radius: 60%;
     padding-right: 10px;
-    color: rgb(0, 223, 0);
+    color: rgb(13, 255, 13);
     cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+
 
 }
 
@@ -36,26 +40,34 @@ nav {
 }
 
 nav ul li a {
-    color: white;
+    color: rgb(0, 102, 255);
     font-weight: 100;
     margin: 10px;
-
 }
 
 nav ul li a:hover {
-    color: rgb(0, 223, 0);
+    color: rgb(0, 102, 255);
 }
 
 
 .home-section {
     height: 90vh;
-    background-color: rgb(6, 116, 116);
+    background-image: url('./images/home.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
 }
 
 
 .home-section .home-text {
     padding-top: 4rem;
-    color: lightblue;
+    color: rgb(44, 238, 44);
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    /* Text color */
+
 }
 
 .home-text h1 {
@@ -79,10 +91,15 @@ nav ul li a:hover {
 }
 
 .dnld-section {
-    background-color: rgb(131, 157, 211);
+    background-image: url('./images/resume3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     text-align: center;
     display: flex;
     padding-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
     flex-direction: column;
 }
 
@@ -120,6 +137,8 @@ nav ul li a:hover {
 
 .pro-section {
     background-color: rgb(206, 109, 45);
+    background-image: url('./images/home.jpg');
+
     height: 75vh;
 }
 
@@ -207,7 +226,7 @@ nav ul li a:hover {
 }
 
 .portfolio-section {
-    background-color: rgba(194, 103, 43, 0.575);
+    /* background-color: rgba(194, 103, 43, 0.575); */
     height: 75vh;
 }
 
@@ -232,7 +251,8 @@ nav ul li a:hover {
 }
 
 .experence-section {
-    background-color: rgba(43, 194, 181, 0.575);
+    background-image: url('./images/experence.jpg');
+    background-size: contain;
     min-height: 75vh;
 }
 
@@ -341,7 +361,8 @@ textarea {
 
 footer {
     display: flex;
-    background-color: gray;
+    background-image: url('./images/home.jpg');
+
     align-items: center;
 }
 
@@ -514,10 +535,16 @@ footer a {
 
 }
 
+@media screen and (max-width:400px) {
+    .home-text h1 {
+        font-size: 40px;
+    }
+}
+
 @media screen and (max-width:280px) {
     .home-text h1 {
         margin: 2rem 0rem 2rem 2rem;
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .home-text h2 {
